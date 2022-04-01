@@ -307,7 +307,10 @@ header
 }
 
 .header-area .main-nav .nav li:last-child {
-  padding-right: 0px;
+  padding-right: 12px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #65ce7d 0%, #618b78 100%);
+    border-radius: 50px;
 }
 
 .header-area .main-nav .nav li a {
