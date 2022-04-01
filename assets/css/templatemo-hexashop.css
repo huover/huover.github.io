@@ -858,8 +858,9 @@ Men
   text-align: center;
   line-height: 50px;
   display: inline-block;
-  color: #2a2a2a;
-  background-color: #fff;
+  color: #ffffff;
+      background-color: #868686;
+      border-radius: 50px;
 }
 
 
@@ -1027,8 +1028,9 @@ Women
   text-align: center;
   line-height: 50px;
   display: inline-block;
-  color: #2a2a2a;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #868686;
+  border-radius: 50px;
 }
 
 
@@ -1189,8 +1191,9 @@ shop
   text-align: center;
   line-height: 50px;
   display: inline-block;
-  color: #2a2a2a;
-  background-color: #fff;
+  color: #ffffff;
+      background-color: #868686;
+      border-radius: 50px;
 }
 
 
@@ -1715,8 +1718,9 @@ Products Page
   text-align: center;
   line-height: 50px;
   display: inline-block;
-  color: #2a2a2a;
-  background-color: #fff;
+  color: #ffffff;
+      background-color: #868686;
+      border-radius: 50px;
 }
 
 #products .pagination {
