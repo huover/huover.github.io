@@ -315,7 +315,7 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   color: #2a2a2a;
   text-transform: capitalize;
@@ -340,8 +340,10 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #aaa!important;
   opacity: 1;
+  font-weight: 650;
+  color: #000 !important;
+  transition: all 0s ease 0s;
 }
 
 .header-area .main-nav .nav li.submenu {
