@@ -492,6 +492,7 @@ header
   transform-origin: 33% 100%;
   top: -10px;
   z-index: 10;
+  width: 30px;
 }
 
 .header-area .main-nav .menu-trigger span:after {
@@ -500,6 +501,7 @@ header
   -webkit-transform-origin: 33% 0;
   transform-origin: 33% 0;
   top: 10px;
+  width: 30px;
 }
 
 .header-area .main-nav .menu-trigger.active span,
@@ -561,8 +563,13 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #aaa!important;
+    color: #000 !important;
     opacity: 1;
+  }
+  .header-area .main-nav .nav li:last-child {
+    background: none !important;
+    border-top: 3px solid #65ce7d;
+    border-radius: 0;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
@@ -597,32 +604,32 @@ header
     margin-left: 0px;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
     margin-top: 0px !important;
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: #fff;
-    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: #ffffff;
+        padding: 20px;
+        font-size: 28px;
+        box-shadow: rgb(149 157 165 / 46%) 0px 8px 24px;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    text-align: left;
   }
   .header-area .main-nav .nav li a {
     height: 50px !important;
-    line-height: 50px !important;
-    padding: 0px !important;
-    border: none !important;
-    background: #fff !important;
-    color: #191a20 !important;
+        line-height: 50px !important;
+        padding: 0px !important;
+        border: none !important;
+        background: none !important;
+        color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
@@ -2284,7 +2291,7 @@ responsive
     padding-left: 5px;
   }
   .header-area .main-nav .nav li a {
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 0px;
   }
   .main-banner .left-content {
