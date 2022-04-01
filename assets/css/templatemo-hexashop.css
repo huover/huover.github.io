@@ -600,10 +600,9 @@ header
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
-    margin-top: 100px !important;
     position: fixed;
-    right: 0;
+    top:0;
+    left: 0;
     width: 50%;
     height: 100%;
     background: #fff;
