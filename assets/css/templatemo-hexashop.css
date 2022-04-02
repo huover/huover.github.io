@@ -337,12 +337,17 @@ header
   color: #fff !important;
 }
 
-.background-header .main-nav .nav li:hover a,
+.background-header .main-nav .nav li:hover a {
+      color: #7f7f7f !important;
+      transition: all 0.5s ease 0s;
+}
 .background-header .main-nav .nav li a.active {
-  opacity: 1;
-  font-weight: 650;
-  color: #000 !important;
-  transition: all 0s ease 0s;
+      opacity: 1;
+      color: #7f7f7f !important;
+      transition: all 0.5s ease 0s;
+      border: 1px solid #d8d8d8;
+      padding: 0px 10px;
+      border-radius: 20px;
 }
 
 .header-area .main-nav .nav li.submenu {
