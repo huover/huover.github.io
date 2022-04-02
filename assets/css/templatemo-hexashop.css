@@ -244,7 +244,6 @@ header
 
 .header-area {
   box-shadow: none;
-  background-color: #fff;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1396,7 +1395,7 @@ Social
 */
 
 #social {
-  margin-top: 90px;
+  padding-top: 90px;
   padding-bottom: 50px;
   background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
