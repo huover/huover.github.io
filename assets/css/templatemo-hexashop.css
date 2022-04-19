@@ -63,6 +63,24 @@ figure, header, nav, section, article, aside, footer, figcaption {
     color: #ffffff;
 }
 
+.highlight {
+  display: inline-block;
+  color: #fff;
+  line-height: 2em;
+  padding: 2px 10px 2px 15px;
+  border-radius: 70px;
+  position: absolute;
+}
+.red-bg {
+  background: #93a2e4;
+  margin: 8px;
+}
+
+.highlight:hover {
+  background: #000;
+
+}
+
 .clearfix:after {
   content: ".";
   display: block;
