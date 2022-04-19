@@ -44,6 +44,25 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.announcement {
+      display: inline-block;
+      padding: 12px;
+      text-align: center;
+      width: 100%;
+      background: black;
+      color: white;
+      margin: 0;
+      vertical-align: middle;
+      background-image: linear-gradient(to right, #434343 0%, black 100%);
+      background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.announcement p {
+  font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -246,7 +265,6 @@ header
 .header-area {
   box-shadow: none;
   position: absolute;
-  top: 0px;
   left: 0px;
   right: 0px;
   z-index: 100;
