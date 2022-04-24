@@ -31,6 +31,7 @@
   width: -moz-fit-content;
   width: fit-content;
   transition: color 0.3s ease;
+  align-items: left;
 }
 #checklist label::before, #checklist label::after {
   content: "";
