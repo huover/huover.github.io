@@ -31,7 +31,7 @@
   width: -moz-fit-content;
   width: fit-content;
   transition: color 0.3s ease;
-  align-items: left;
+  text-align: left;
 }
 #checklist label::before, #checklist label::after {
   content: "";
@@ -280,4 +280,8 @@ body .socials > a:hover {
 /* ======= checklist ========== */
 .fa-circle-check {
   margin-right: 8px;
+}
+
+.character-icon {
+  width: 40px;
 }
